@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Booking</title>
+  <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+  <header>
+    <h1>Booking Page</h1>
+  </header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="home.html">Movies</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact us </a>
+    <a href="trending.html">Trending Movies</a>
+  </nav>
+    <section class="booking-section">
+      <h2>Selected Movie Details</h2>
+      <div class="movie-details">
+        <img src="selected_movie.jpg" alt="Selected Movie">
+        <h3 id="movieName">Movie Name</h3>
+        <p id="price">Price: Rs200</p>
+        <p id="location">Location: Theater Name</p>
+      </div>
+
+      <h2>Select Date</h2>
+      <input type="date" id="selectedDate" required>
+
+      <h2>Select Number of Seats</h2>
+      <input type="number" id="seatNumber" min="1" value="1">
+      <button onclick="calculateTotal()">Calculate Total</button>
+      <p id="totalPrice">Total Price: Rs 0000</p>
+      <button onclick="bookNow()">Book Now</button>
+      
+    </section>
+
+  <footer>
+    <p>&copy; 2024 Movie Booking</p>
+  </footer>
+
+  <div id="overlay"></div>
+  <div id="discountAlert">
+    <h2>Special Offer!</h2>
+    <p>Would you like to watch an advertisement for a discount?</p>
+    <button onclick="watchAdvertisement()">Yes</button>
+    <button onclick="closeAlert()">No</button>
+  </div>
+
+  <script src="combined.js"></script>
+</body>
+</html>

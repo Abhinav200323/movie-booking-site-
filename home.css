@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+background-image: url("https://img.freepik.com/free-photo/2d-graphic-wallpaper-with-colorful-grainy-gradients_23-2151001557.jpg?t=st=1713691356~exp=1713694956~hmac=de76391dd4c1ac3be5c25f9d5b18abdf1d1157cebe3e63f8bb45d4110783cbe2&w=360")}
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.movie-section {
+  margin-bottom: 30px;
+}
+
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movie {
+  width: 30%;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.movie h3 {
+  margin-top: 10px;
+}
+
+.movie p {
+  margin: 5px 0;
+}
+
+.book-button {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+.trending-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.trending-section ul li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

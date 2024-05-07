@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+  <header>
+    <h1>Payment Page</h1>
+  </header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="home.html">Movies</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact us </a>
+    <a href="trending.html">Trending Movies</a>
+  </nav>
+  <main>
+    <section class="payment-section">
+      <h2>Total Amount</h2>
+      <p id="totalAmount">Rs 1000</p>
+
+      <h2>Select Payment Option</h2>
+      <div class="payment-options">
+        <button onclick="payWithUPI()">UPI</button>
+        <button onclick="payWithPaytm()">Paytm</button>
+        <button onclick="payWithGooglePay()">Google Pay</button>
+        <button onclick="payWithDebitCard()">Debit Card</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Movie Booking</p>
+  </footer>
+
+  <script src="combined.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    background-image: url("https://img.freepik.com/free-photo/abstract-watercolor-stain-white-paper_23-2147836209.jpg?w=996&t=st=1713692524~exp=1713693124~hmac=b865afecb9d24d450378d159738bb233549388a37face76d0e28d28c8d96fe4b");
+}
+.trending-section {
+    margin-top: 20px;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .movie {
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movie p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
